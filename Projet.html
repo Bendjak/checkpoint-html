@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+        <a href="#home">Accueil</a>&nbsp;&nbsp;
+        <a href="#about">À propos</a>&nbsp;&nbsp;
+        <a href="#work">Travail</a>&nbsp;
+        <a href="#cv">CV</a>&nbsp;&nbsp;
+        <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section>
+        <fieldset width="200" height="200">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Découvrez mon travail et mes expériences.</p>
+        <img src="" alt="">
+        </fieldset>
+    </section>
+
+    <!-- Section À propos -->
+    <section>
+        <h2>À propos de moi</h2>
+        <p>Je suis un développeur web passionné par la création de sites modernes et interactifs.</p>
+        <!-- Ajout d'une vidéo -->
+        <video controls>
+            <source src="Présentation.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <!-- Section Travail -->
+    <section id="work">
+        <h2>Mes différents projets</h2>
+        <ul>
+            <li>Projet 1 : <a href="projet1.html">Application de gestion</a></li>
+            <li>Projet 2 : <a href="projet2.html">Site e-commerce</a></li>
+            <li>Projet 3 : <a href="projet3.html">Portfolio interactif</a></li>
+        </ul>
+    </section>
+
+    <!-- Section CV -->
+    <section>
+        <h2>Mon CV</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Année</th>
+                    <th>Expérience</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023</td>
+                    <td>Développeur full stack chez Gomycode</td>
+                </tr>
+                <tr>
+                    <td>2021</td>
+                    <td>Stage en développement web</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit-form.html" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <br>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <audio controls>
+            <source src="informatique.mp3" type="audio/mpeg">
+        </audio>
+    </footer>
+</body>
+</html>
